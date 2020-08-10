@@ -1,0 +1,101 @@
+body {                            
+    border: 0;                    /* Reset propiedades del body */
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+body * {                          /* Reset propiedades de los elementos del body */
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+h1 {                              /* Estilo del título */
+    background-color: #000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {                              /* Subtítulo: Características */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+figure img {                      /* Sección header */
+    width: 100%;
+}
+
+footer {                           /* Footer */
+    background-color: #1e1a13;
+    padding: 30px;
+    text-align: center; 
+}
+
+footer p {                         /* Color fondo del párrafo en el footer */
+    background-color: #1e1a13;
+}
+
+.desc-section {                   /* Sección descripción */
+    text-align: center;
+    width: 100%;
+}
+
+.desc-section p {                 /* Párrafos de la seccion descripción */
+    width: 475px;
+    height: 197px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: left;
+    margin: 75px 150px;
+}
+
+.iguana-log {                    /* Imagen iguana sección descripción */
+    width: 399px;
+    height: 237px;
+    margin-left: 30px;
+}
+
+.chara-section {                    /* Color de fondo y dimensión sección características */
+    background-color: #1e1a13;
+    padding: 75px;
+}
+
+.chara-section * {                  /* Color de fondo para todos los elementos de la sección característica */
+    background-color: #1e1a13;;
+}
+
+.icons-section {                  /* El contenedor de las características */
+    text-align: center;
+    margin: 30px auto;
+    width: 75%;
+}
+
+.iguana-car {                       /* El contenedor de cada característica */
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+}
+
+.iguana-car p {                     /* El párrafo de cada característica */
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px auto;
+}
+.imagenes {                         /* Dimensiones del contenedor de imágenes */
+    margin: 20px auto;
+    text-align: center;
+    padding: 73px;
+}
+
+.iguana-fig {                       /* Dimensiones y display de las imágenes */
+    display: inline-block;
+    width: 316px;
+    height: 202px;
+    margin: 10px;
+}
